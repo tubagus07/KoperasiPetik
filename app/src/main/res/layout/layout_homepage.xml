@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="Silahkan Pilih Menu"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMenu"
+        android:background="@android:color/holo_purple"
+        android:text="Input"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInput"
+        android:background="@android:color/holo_blue_light"
+        android:text="History"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+</android.support.constraint.ConstraintLayout>
